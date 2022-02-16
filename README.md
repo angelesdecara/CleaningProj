@@ -1,3 +1,3 @@
-This repository includes the script to analyse the dataset for the project of the Getting and Cleaning Data of Coursera, and a code book that describes the data and the variables, as well as the steps involved to obtain the required tidy set.
+This repository includes the script (run_analysis.R) to analyse the dataset for the project of the Getting and Cleaning Data of Coursera, and a code book (CodeBook.md) that describes the data and the variables, as well as the steps involved to obtain the required tidy set.
 
-This is a line from RStudio.
+Firsly, download the zip file. Then unzip on the command line or using R. Continue merging the data and information on which subject performed which activiy. Get the variables of interest with select. Rename activity indices to informative names using factor and give descriptive names to the variables using the information on the files and gsub. Finally, using summarise and group_by, obtain the tidy data set with means per subject and activity.
