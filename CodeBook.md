@@ -86,7 +86,7 @@ averages<-summarise_each(grouped,funs = mean)
 
 And we write it to a file to upload it to the repository.
 ```
-write.table(averages,file = "~/Desktop/CleaningProj/MeansIndivsActivity.csv")
+write.table(averages,file = "~/Desktop/CleaningProj/means.txt",row.names=FALSE)
 ```
 
 

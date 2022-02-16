@@ -44,5 +44,5 @@ colnames(meansstds)<-gsub("^f","FFT",colnames(meansstds))
 grouped<-meansstds%>%group_by(subject,activity)
 averages<-summarise_each(grouped,funs = mean)
 
-write.table(averages,file = "~/Desktop/CleaningProj/MeansIndivsActivity.csv")
+write.table(averages,file = "~/Desktop/CleaningProj/means.txt",row.names = FALSE)
 
